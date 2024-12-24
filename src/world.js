@@ -319,7 +319,7 @@ export class World {
       this.sound = new THREE.Audio(listener);
       const audioLoader = new THREE.AudioLoader(this.loadingManager);
       audioLoader.load(
-        'short-snow_01.mp3',
+        'we-wish-you-a-merry-christmas.mp3',
         buffer => {
           this.sound.setBuffer(buffer);
           this.sound.setLoop(false);
